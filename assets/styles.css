@@ -1,0 +1,157 @@
+/* Master Styles and Resets*/
+
+body {
+	background-color:#eecb9a;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+
+.container {margin-bottom: 50px;}
+
+/* Typography */
+h2 {
+	margin-bottom: 20px;
+}
+
+h3 {
+		text-align: center;
+}
+
+/* Generic Styles */
+
+.cv-body {
+	background-color:#474c5f;
+	padding: 1em;
+	border: 1px solid #eecb9a;
+}
+
+.cv {
+	max-width:1360px;
+	margin:0 auto;
+}
+
+.banner {
+	height:20em;
+	background-image:url("banner-image.PNG");
+	background-size:auto auto; 
+	background-repeat: no-repeat;
+}
+
+.interest-heading {
+	border-top: 2px solid #eecb9a;
+	margin: 0 -16px;
+	padding: 16px 16px 20px;
+}
+
+.skills {
+		margin-top: 0;
+	}
+
+/* Fixes & Behavior */
+
+.hide {
+	display: none;
+}
+
+.mobile-portfolio-example {
+	display:none;
+}
+
+.mobile-portfolio-example p {
+	margin-bottom: 5px;
+}
+
+.mobile-portfolio-example a {
+	color: #fff;
+}
+
+/* Slick Slider */
+
+.slider-image {
+	margin: 0 auto;
+	height:20em;
+	width:42.5em;
+}
+
+.slick-prev {
+	left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.slick-next {
+	right: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.slick-arrow {
+	z-index: 100;
+}
+
+/* Tables */
+
+.experience-table td, .contact_details-table td {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.experience-table tr{
+    border-bottom: 1px solid;
+}
+
+.experience-date {
+	min-width: 120px;
+	text-align: right;
+}
+
+.experience-table p, .contact_details-table p {
+	margin-bottom: 0;
+}
+
+.skill-list {
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.skill-list li {
+	width:50%;
+	float:left;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 992px) { 
+	
+	.skills {
+		margin-top: -160px;
+	}
+
+	.cv-body {
+		padding: 2em;
+	}
+
+	.cv-left {
+		border-right:1px white solid;
+	}
+	.cv-right {
+		border-left:1px white solid;
+	}
+
+	.interest-heading {
+		border-top: 2px solid #eecb9a;
+		margin: 0 -33px;
+		padding: 33px 33px 20px;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+
+	.portfolio-slider {
+		display: none;
+	}
+
+	.mobile-portfolio-example {
+		display:block;
+	}
+}
