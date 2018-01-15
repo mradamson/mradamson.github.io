@@ -1,0 +1,197 @@
+.icon-right {
+    height: 4em;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: .2em;
+}
+
+.navigation {
+    height: 4em;
+}
+
+#navigation {
+    position: absolute;
+    right: 0;
+    bottom: 10em;
+}
+
+.row {
+    margin: 0;
+}
+
+#map {
+    z-index: 1;
+    height: 91.5vh;
+    width: 100%;
+    position: fixed;
+    margin-top: 8.5vh;
+}
+
+.list-item {
+    height: 4.2em;
+    z-index: 10;
+    margin-left: .5vh;
+    padding: 0;
+}
+
+.top {
+    height: 5em;
+    background-color: $brand-primary;
+    z-index: 10;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    width: 10em;
+    height: 4em;
+    margin: 1em auto;
+    display: block;
+    position: absolute;
+    top: 5.8em;
+    right: 1.1em;
+    z-index: 10;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-icon {
+    font-size: 2em;
+    margin: .5em .5em .5em .5em;
+}
+
+.hamburger {
+    color: $brand-success;
+    font-size: 2.5em;
+    padding: 1.5rem 0 1.5rem 0.2rem;
+}
+
+.locations {
+    font-size: 2em;
+    color: $brand-success;
+    margin-bottom: .5vh;
+    background-color: $brand-primary;
+    z-index: 10;
+    height: 1.9em;
+    width: 1.9em;
+    margin-right: .25vw;
+    padding: .4em .5em;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: ease all 500ms;
+}
+
+.locations:hover {
+    color: $white;
+}
+
+.social-media {
+    font-size: 2em;
+    color: $brand-success;
+    text-align: right;
+    line-height: 2.5em;
+    padding-right: 1em;
+    transition: ease all 500ms;
+}
+
+.social-media:hover {
+    color: $white;
+}
+
+.locations:nth-child(3) {
+    margin-right: 0;
+}
+
+.button {
+    height: 4em;
+    width: 15em;
+    background-color: $brand-primary;
+    line-height: 1em;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-right: 0;
+}
+
+.button>i {
+    width: .8em;
+    height: .8em;
+    color: $brand-success;
+}
+
+.button>h4 {
+    padding-left: .8em;
+    color: $white;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 1.5em;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.button:nth-child(1) {
+    margin-top: .25em;
+}
+
+.modal-content {
+    background-color: $brand-primary !important;
+}
+
+.modal-header{
+    color:$white !important;
+    font-size: 2em !important;
+}
+
+.modal-footer{
+    color:$white !important;
+}
+
+.modal-header>button {
+    color: $brand-success !important;
+}
+
+.directions>a {
+    color: $brand-success;
+    text-decoration: none;
+}
+
+.website>a {
+    color: $brand-success;
+    text-decoration: none;
+}
+
+.modal-body1>a {
+    color: $brand-success;
+    text-decoration: none;
+}
+
+.modal-body1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.modal-body {
+    background-color: $white;
+    color: $black !important;
+}
+
+
+@media (min-width:1200px) {
+
+    .logo {
+        width: 20em;
+        height: 8em;
+        margin: 1em auto;
+        display: block;
+        position: absolute;
+        top: 5.8em;
+        right: 1.1em;
+        z-index: 10;
+    }
+}
