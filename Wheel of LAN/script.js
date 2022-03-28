@@ -20,7 +20,7 @@ gameName[17] = "Rust";
 gameName[18] = "Warcraft 3";
 gameName[19] = "Worms";
 gameName[20] = "Wreckfest";
-gameName[21] = "Try Again";
+gameName[21] = "Jailbreak";
 gameName[22] = "Try Again";
 gameName[23] = "Try Again";
 
